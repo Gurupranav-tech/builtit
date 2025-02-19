@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom"; // Use react-router-dom for routing
@@ -17,13 +16,16 @@ export const MenuItem = ({
   setActive,
   active,
   item,
+  href,
   children,
+
 }) => {
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">
+    <Link to={href} className="cursor-pointer"></Link>
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
+        className="cursor-pointer text-white hover:opacity-[0.9] dark:text-white"
       >
         {item}
       </motion.p>
@@ -62,7 +64,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-black text-white shadow-input flex justify-center space-x-4 px-8 py-6 "
     >
       {children}
     </nav>
