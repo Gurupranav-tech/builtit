@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/Navbar";
 import { cn } from "@/lib/utils";
 
@@ -7,7 +7,6 @@ export function NavbarDemo() {
   return (
     <div className="relative w-full flex items-center text-white justify-center">
       <Navbar className="top-2" />
-
     </div>
   );
 }
@@ -55,7 +54,12 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div> */}
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} href={"/events"} item="Events">
+        <MenuItem
+          setActive={setActive}
+          active={active}
+          href={"/events"}
+          item="Events"
+        >
           <div className="  text-sm grid grid-cols-1 gap-10 p-4">
             <ProductItem
               title="Fluxus"
@@ -78,9 +82,16 @@ function Navbar({ className }: { className?: string }) {
             <p className="h3 text-black">...</p>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} href={"/faqs"} item="FAQs">
+        <MenuItem
+          setActive={setActive}
+          active={active}
+          href={"/faqs"}
+          item="FAQs"
+        >
           <div className="flex flex-col space-y-4 text-sm ">
-            <HoveredLink href="/branding">IIT Indore is better than IIT BHU ?</HoveredLink>
+            <HoveredLink href="/branding">
+              IIT Indore is better than IIT BHU ?
+            </HoveredLink>
             <HoveredLink href="/techincal/clubs">
               How far is IIT Indore from the city?
             </HoveredLink>

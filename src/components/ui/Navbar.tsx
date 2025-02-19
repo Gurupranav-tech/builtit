@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom"; // Use react-router-dom for routing
-import PropTypes from 'prop-types';
 
 const transition = {
   type: "spring",
@@ -12,17 +11,24 @@ const transition = {
   restSpeed: 0.001,
 };
 
+type MenuItemProps = {
+  children: React.ReactNode;
+  active: any;
+  setActive: (a: any) => void;
+  item: any;
+  href: string;
+};
+
 export const MenuItem = ({
   setActive,
   active,
   item,
   href,
   children,
-
-}) => {
+}: MenuItemProps) => {
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">
-    <Link to={href} className="cursor-pointer"></Link>
+      <Link to={href} className="cursor-pointer"></Link>
       <motion.p
         transition={{ duration: 0.3 }}
         className="cursor-pointer text-white hover:opacity-[0.9] dark:text-white"
@@ -60,6 +66,9 @@ export const MenuItem = ({
 export const Menu = ({
   setActive,
   children,
+}: {
+  setActive: (a: any) => void;
+  children: React.ReactNode;
 }) => {
   return (
     <nav
@@ -76,6 +85,11 @@ export const ProductItem = ({
   description,
   href,
   src,
+}: {
+  title: string;
+  description: string;
+  href: string;
+  src: string;
 }) => {
   return (
     <Link to={href} className="flex space-x-2">
@@ -98,7 +112,7 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }) => {
+export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
@@ -107,28 +121,4 @@ export const HoveredLink = ({ children, ...rest }) => {
       {children}
     </Link>
   );
-};
-
-// PropTypes for type checking
-MenuItem.propTypes = {
-  setActive: PropTypes.func.isRequired,
-  active: PropTypes.string,
-  item: PropTypes.string.isRequired,
-  children: PropTypes.node,
-};
-
-Menu.propTypes = {
-  setActive: PropTypes.func.isRequired,
-  children: PropTypes.node.isRequired,
-};
-
-ProductItem.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  href: PropTypes.string.isRequired,
-  src: PropTypes.string.isRequired,
-};
-
-HoveredLink.propTypes = {
-  children: PropTypes.node.isRequired,
 };
