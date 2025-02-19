@@ -1,17 +1,26 @@
-import { lazy, Suspense } from "react";
-import { BrowserRouter, Route, Routes } from "react-router";
+import React, { lazy, Suspense, useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Menu, MenuItem } from "./components/ui/Navbar"; // Adjust the import path as necessary
 
 const Home = lazy(() => import("./pages/home"));
 
 function App() {
+  const [active, setActive] = useState(null);
+
   return (
-    <Suspense fallback={<p>Loading...</p>}>
-      <BrowserRouter>
+    <Router>
+      <Suspense fallback={<p>Loading...</p>}>
+        <Menu setActive={setActive}>
+          <MenuItem setActive={setActive} active={active} item="Home">
+            <p>Home Description</p>
+          </MenuItem>
+          {/* Add more MenuItems as needed */}
+        </Menu>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </BrowserRouter>
-    </Suspense>
+      </Suspense>
+    </Router>
   );
 }
 

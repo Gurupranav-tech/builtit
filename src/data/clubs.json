@@ -1,0 +1,195 @@
+{
+  "clubs": {
+    "Technical": [
+      {
+        "name": "Programming Club",
+        "logo": "public/Clubs/Tech/p_club.png",
+        "description": "A vibrant community for students passionate about coding, offering workshops, competitions, and collaborative projects to foster programming excellence."
+      },
+      {
+        "name": "Robotics Club",
+        "logo": "public/Clubs/Tech/robotics_club.jpg",
+        "description": "A platform for innovation in robotics, where students design, build, and program robots while participating in hands-on workshops and competitions."
+      },
+      {
+        "name": "Cynaptics Club",
+        "logo": "public/Clubs/Tech/cynaptics_club.jpg",
+        "description": "A hub for AI and machine learning enthusiasts, focusing on cutting-edge research, collaborative projects, and real-world applications of intelligent systems."
+      },
+      {
+        "name": "GDSC Club",
+        "logo": "public/Clubs/Tech/gdsc.png",
+        "description": "A Google-powered community where students explore web and mobile development, participate in hackathons, and solve real-world tech challenges."
+      },
+      {
+        "name": "Astronomy Club",
+        "logo": "public/Clubs/Tech/astronomy_club.jpg",
+        "description": "A club for stargazers and space enthusiasts, offering telescope nights, space science workshops, and hands-on activities to explore the universe."
+      },
+      {
+        "name": "The Aeromodelling Club",
+        "logo": "public/Clubs/Tech/astronomy_club.jpg",
+        "description": "A space for aviation enthusiasts to design and fly model aircraft while learning about aerodynamics and flight mechanics."
+      },
+      {
+        "name": "CAE Club",
+        "logo": "public/Clubs/Tech/cae_club.png",
+        "description": "Dedicated to computer-aided engineering, this club provides hands-on experience with simulation tools and fosters innovation in engineering design."
+      },
+      {
+        "name": "CFA Club",
+        "logo": "public/Clubs/Tech/cfa_club.jpg",
+        "description": "A club that bridges finance and technology by teaching data analytics, financial modeling, and algorithmic trading techniques."
+      },
+      {
+        "name": "Electronics Club",
+        "logo": "public/Clubs/Tech/electronics_club.png",
+        "description": "A community for electronics enthusiasts to innovate with circuits, microcontrollers, and IoT devices through hands-on projects."
+      },
+      {
+        "name": "IVDC Club",
+        "logo": "public/Clubs/Tech/ivdc.jpg",
+        "description": "Focused on designing smart vehicles using cutting-edge technologies like autonomous navigation and electric mobility solutions."
+      },
+      {
+        "name": "Metacryst Club",
+        "logo": "public/Clubs/Tech/metacryst_club.png",
+        "description": "A materials science club exploring innovations in crystallography, nanotechnology, and material synthesis through research and experiments."
+      },
+      {
+        "name": "Quantum Computing",
+        "logo": "public/Clubs/Tech/qc_club.jpg",
+        "description": "A forward-looking group exploring quantum algorithms, computing paradigms, and their revolutionary applications in technology."
+      }
+    ],
+    "Cultural": [
+      {
+        "name": "Aaina Club",
+        "logo": "public/Clubs/Cult/aaina_club.png",
+        "description": "A vibrant dance community where students express themselves through diverse dance forms while participating in events and competitions."
+      },
+      {
+        "name": "Avana Club",
+        "logo": "public/Clubs/Cult/avana_club.png",
+        "description": "A musical haven where band rehearsals, jam sessions, and performances bring together budding musicians and vocalists."
+      },
+      {
+        "name": "Cinephiles Club",
+        "logo": "public/Clubs/Cult/cinephiles_club.jpg",
+        "description": "A cinematic club that celebrates the art of film-making and storytelling, inviting aspiring actors and directors to share their passion."
+      },
+      {
+        "name": "D' Alpha Crewz Club",
+        "logo": "public/Clubs/Cult/alphad.jpg",
+        "description": "A dynamic group dedicated to theatre and performance arts, encouraging creative expression through acting and stagecraft."
+      },
+      {
+        "name": "The Debating Society",
+        "logo": "public/Clubs/Cult/debsoc.jpg",
+        "description": "A forum for intellectual exchange where students refine their arguments and public speaking skills through rigorous debates."
+      },
+      {
+        "name": "EBSB Club",
+        "logo": "public/Clubs/Cult/ebsb_club.png",
+        "description": "A creative space fostering expressive arts and cultural dialogues through interactive workshops and exhibitions."
+      },
+      {
+        "name": "Gaming Club",
+        "logo": "public/Clubs/Cult/gaming_club.png",
+        "description": "A hub for gamers to engage in competitive play, strategy discussions, and community tournaments that celebrate gaming culture."
+      },
+      {
+        "name": "Kalakriti Club",
+        "logo": "public/Clubs/Cult/kalakriti_club.png",
+        "description": "A celebration of art and craftsmanship, where creative expression is transformed into visual masterpieces and art installations."
+      },
+      {
+        "name": "Literary Club",
+        "logo": "public/Clubs/Cult/literary_club.jpg",
+        "description": "A sanctuary for wordsmiths, fostering a love for literature through book discussions, poetry readings, and creative writing workshops."
+      },
+      {
+        "name": "Mystic Hues",
+        "logo": "public/Clubs/Cult/mystichues_club.png",
+        "description": "An artistic collective dedicated to exploring visual arts and unconventional design through collaborative projects and immersive installations."
+      },
+      {
+        "name": "Music Club",
+        "logo": "public/Clubs/Cult/music_club.jpg",
+        "description": "A community of musicians and vocalists who collaborate, perform, and innovate through diverse musical genres and live jam sessions."
+      },
+      {
+        "name": "Prakriti Club",
+        "logo": "public/Clubs/Cult/prakriti_club.jpg",
+        "description": "A fusion of art and nature, this club focuses on sustainable art projects and eco-friendly cultural expressions."
+      },
+      {
+        "name": "Quiz Club",
+        "logo": "public/Clubs/Cult/quiz_club.jpg",
+        "description": "A space for curious minds to challenge themselves with trivia, puzzles, and competitive quizzes across various domains."
+      },
+      {
+        "name": "Srijan Club",
+        "logo": "public/Clubs/Cult/srijan_club.jpg",
+        "description": "A platform to nurture creative talent, offering opportunities for theatre, art, and innovative cultural projects."
+      },
+      {
+        "name": "VLR Club",
+        "logo": "public/Clubs/Cult/vlr_club.png",
+        "description": "A club that drives cultural exchange through music, dance, drama, and innovative artistic collaborations."
+      }
+    ],
+    "Sports": [
+      {
+        "name": "Football Club",
+        "logo": "public/Clubs/Sports/football_club.jpg",
+        "description": "A dynamic group fostering teamwork and strategy through rigorous training sessions and inter-college tournaments."
+      },
+      {
+        "name": "Basketball Club",
+        "logo": "public/Clubs/Sports/basketball_club.png",
+        "description": "Where athleticism meets precision – a club dedicated to honing basketball skills, teamwork, and competitive play."
+      },
+      {
+        "name": "Athletics Club",
+        "logo": "public/Clubs/Sports/ath_club.png",
+        "description": "A training ground for track and field athletes, committed to speed, strength, and the spirit of competition."
+      },
+      {
+        "name": "Badminton Club",
+        "logo": "public/Clubs/Sports/badminton_club.png",
+        "description": "A space where shuttle speed meets agility, offering intense practice sessions and friendly matches in badminton."
+      },
+      {
+        "name": "Chess Club",
+        "logo": "public/Clubs/Sports/chess_club.jpg",
+        "description": "A strategic community encouraging mental acuity and sportsmanship through challenging chess matches and tournaments."
+      },
+      {
+        "name": "Cricket Club",
+        "logo": "public/Clubs/Sports/cricket_club.jpg",
+        "description": "A club where cricket enthusiasts practice both technique and strategy to excel in local and college-level matches."
+      },
+      {
+        "name": "Tennis Club",
+        "logo": "public/Clubs/Sports/tennis_club.jpg",
+        "description": "Focusing on agility and technique, this club provides coaching, practice sessions, and competitive play in tennis."
+      },
+      {
+        "name": "Table Tennis Club",
+        "logo": "public/Clubs/Sports/tt_club.png",
+        "description": "A fast-paced arena for table tennis aficionados to sharpen reflexes, precision, and enjoy spirited competitions."
+      },
+      {
+        "name": "Volleyball Club",
+        "logo": "public/Clubs/Sports/vb_club.png",
+        "description": "A club promoting teamwork and athleticism on the court, where volleyball enthusiasts practice skills and participate in tournaments."
+      },
+      {
+        "name": "Aquatics Club",
+        "logo": "public/Clubs/Sports/aquatics_club.jpg",
+        "description": "A club promoting teamwork and athleticism on the court, where Aquatic enthusiasts practice skills and participate in tournaments."
+      }
+    ]
+  }
+}
