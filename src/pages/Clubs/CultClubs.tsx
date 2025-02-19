@@ -4,11 +4,11 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 import data from "../../data/clubs.json";
 
-export default function TechClubs() {
+export default function CultClubs() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
       <h1 className="text-3xl text-center font-bold text-neutral-900 dark:text-neutral-200">
-        Technical Clubs
+        Cultural Clubs
       </h1>
       <ExpandableCards />
     </div>
@@ -180,4 +180,4 @@ export const CloseIcon = () => {
   );
 };
 
-const cards = data["clubs"]["Technical"];
+const cards = data["clubs"]["Cultural"];
